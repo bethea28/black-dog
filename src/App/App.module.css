@@ -1,0 +1,31 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.challengeTitle {
+  padding-left: 8px;
+}
+
+.challengeDifficulty {
+  padding-left: 8px;
+  color: #777;
+}
+
+.challengeOption {
+  display: inline-block;
+  padding: 2px 20px;
+  box-sizing: border-box;
+}
+.challengeOption:not(:last-child) {
+  border-right: 1px solid #ccc;
+}
+
+.challengeBox {
+  height: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #eee;
+  width: 100%;
+  border: 1px solid #ccc;
+}
